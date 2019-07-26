@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html, body, .container {
+	height: 100%;
+	background: #e7e7e7;
+}
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+canvas {
+	background: #ffffff;
+	border: solid 1px #ccc;
+}
